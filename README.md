@@ -36,17 +36,30 @@ Data → Analysis → Insight → Business Recommendation
 
 DAX FORMULAS
 
+
+
 Total Beverages =
 COUNTROWS('Beverages')
+
+
 
 Average Calories =
 AVERAGE('Beverages'[Calories])
 
+
+
 Average Sugar =
 AVERAGE('Beverages'[Sugar])
 
+
+
 Average Caffeine =
 AVERAGE('Beverages'[Caffeine])
+
+
+
+
+
 
 col_chart =
 VAR avgP =

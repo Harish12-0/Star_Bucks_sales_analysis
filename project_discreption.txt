@@ -1,0 +1,439 @@
+☕ Starbucks Beverage Analytics Dashboard — Power BI
+
+1. Project Overview
+
+Starbucks Beverage Analytics Dashboard is an interactive Power BI business intelligence project designed to analyze beverage-level data and identify patterns in calories, sugar, caffeine, beverage categories, and product distribution.
+
+The dashboard transforms raw beverage data into an easy-to-understand visual report that can help business stakeholders evaluate product characteristics, compare beverage categories, identify high-calorie/high-sugar products, and understand caffeine trends.
+
+Main Objective
+
+The primary objective of this project is to answer questions such as:
+
+* Which beverage categories have the highest average calories?
+* Which categories contain the highest caffeine levels?
+* What is the average sugar content across beverages?
+* Which beverages have the highest caffeine?
+* How are beverages distributed across different categories?
+* Which products may require nutritional optimization?
+* How can beverage-level data support product and marketing decisions?
+
+2. Dashboard Preview
+
+Your dashboard contains:
+
+KPI Cards
+
+* Total Beverages: 33
+* Average Sugar: 33.02
+* Average Calories: 194.30
+* Average Caffeine: 81
+
+Visualizations
+
+1. Average Calories by Beverage Category
+
+Shows the average calorie level across different beverage categories.
+
+2. Beverage/Product Comparison
+
+Compares beverage-level values to identify products with relatively higher or lower nutritional values.
+
+3. Beverage Category Distribution
+
+Shows the proportion of beverages belonging to different categories.
+
+4. Average Caffeine by Category
+
+Ranks beverage categories according to their average caffeine content.
+
+5. Top 5 Highest Caffeine Beverages
+
+Identifies the five beverages with the highest caffeine values.
+
+Interactive Filters
+
+The dashboard includes filters such as:
+
+* Protein Range
+* Beverage Preparation
+* Beverage Category/Product attributes
+
+These allow users to interactively explore the dataset.
+
+
+
+3. Tools & Technologies Used
+
+Power BI
+
+Used for:
+
+* Data visualization
+* Dashboard development
+* Interactive filtering
+* KPI creation
+* Data analysis
+* Business intelligence reporting
+
+Power Query
+
+Used for:
+
+* Data cleaning
+* Removing unnecessary columns
+* Handling missing values
+* Changing data types
+* Transforming data
+* Preparing data for analysis
+
+DAX
+
+Used for:
+
+* Measures
+* Average calculations
+* KPI calculations
+* Aggregations
+* Category-level analysis
+
+Data Analysis Concepts
+
+* Descriptive analytics
+* Comparative analysis
+* Trend identification
+* KPI analysis
+* Category analysis
+* Nutritional analysis
+
+4. Dataset
+
+The project uses beverage-level data containing nutritional and product-related attributes.
+
+The important fields used for analysis include:
+
+* Beverage Name
+* Beverage Category
+* Calories
+* Sugar
+* Caffeine
+* Protein
+* Beverage Preparation
+* Other beverage attributes
+
+The dataset was transformed and prepared in Power Query before building the dashboard.
+
+Note: The dashboard currently represents 33 beverages, as shown in the dashboard KPI. If the source dataset is a sample/subset, describe it as a sample dataset rather than implying it represents Starbucks’ entire global product catalog.
+
+5. Data Cleaning & Transformation
+
+Before creating the dashboard, the data was prepared using Power Query.
+
+Data preparation steps
+
+1. Imported the beverage dataset into Power BI.
+2. Reviewed column names and data structure.
+3. Removed unnecessary fields.
+4. Checked for missing/null values.
+5. Corrected data types.
+6. Standardized categorical values.
+7. Converted numerical columns into appropriate numeric data types.
+8. Checked duplicate records.
+9. Created required calculated fields/measures.
+10. Loaded the cleaned dataset into the Power BI data model.
+
+This step ensured that the data was suitable for accurate visualization and analysis.
+
+6. Important KPIs
+
+The dashboard highlights four primary KPIs.
+
+Total Beverage
+
+33
+
+Represents the number of beverage records/products included in the analysis.
+
+Average Sugar
+
+33.02
+
+Represents the average sugar content across the analyzed beverages.
+
+Average Calories
+
+194.30
+
+Represents the average calorie value of the analyzed beverages.
+
+Average Caffeine
+
+81
+
+Represents the average caffeine content across the analyzed beverages, subject to the units and definitions in the source dataset.
+
+7. Key Insights from the Dashboard
+
+This is the most important section for your GitHub project, because a Data Analyst should not only create charts but also explain what the data means.
+
+🔹 Insight 1 — Significant calorie variation exists between categories
+
+The Average Calories by Beverage Category visualization shows a considerable difference between categories.
+
+The highest category in the displayed analysis is around 282 calories, while the lowest is around 0 calories.
+
+Business meaning
+
+Different beverage categories have significantly different nutritional profiles.
+
+This can help businesses:
+
+* Identify high-calorie product categories.
+* Develop lower-calorie alternatives.
+* Create healthier product options.
+* Improve nutritional labeling.
+* Target health-conscious customers.
+
+🔹 Insight 2 — Coffee-based beverages can be strong caffeine contributors
+
+The Average Caffeine by Category chart shows:
+
+* Brewed Coffee — approximately 294
+* Caffè Americano — approximately 188
+* Iced Brewed Coffee — approximately 173
+* Caffè Mocha — approximately 134
+* Another iced coffee category — approximately 123
+
+Business meaning
+
+Coffee-based products can be segmented according to caffeine intensity.
+
+This creates opportunities for:
+
+* High-caffeine product positioning
+* Morning/energy-oriented campaigns
+* Customer segmentation
+* Menu recommendations
+* Product bundling
+
+For example, customers specifically looking for higher caffeine could be targeted with brewed coffee or Americano products.
+
+🔹 Insight 3 — The top 5 caffeine beverages are highly differentiated
+
+The dashboard identifies the highest caffeine beverages, with the leading beverage showing approximately:
+
+293.75
+
+followed by:
+
+* Classic Espresso — 122.07
+* Frappuccino Blended — 101.81
+* Frappuccino Light — 99.58
+* Iced Beverage — 98.53
+
+Business meaning
+
+There is a clear difference between the highest-caffeine beverage and the other products in the displayed Top 5.
+
+This can support:
+
+* Menu positioning
+* Caffeine-based recommendations
+* Customer segmentation
+* Product promotion
+* Energy-focused campaigns
+
+🔹 Insight 4 — Beverage portfolio has multiple categories
+
+The Beverage Category Distribution visual shows that the portfolio is distributed across several beverage categories, including categories such as:
+
+* Classic Espresso Drinks
+* Tazo Tea Drinks
+* Frappuccino
+* Signature Espresso
+* Smoothies
+* Coffee
+* Shaken Iced beverages
+
+Business meaning
+
+A diversified product portfolio allows the business to target different customer preferences.
+
+For example:
+
+Coffee → caffeine-focused customers
+
+Tea → customers preferring tea-based beverages
+
+Smoothies → customers looking for alternative beverage options
+
+Frappuccino → indulgent/premium beverage segment
+
+This type of segmentation can help with menu planning and targeted marketing.
+
+🔹 Insight 5 — Sugar and calorie analysis can support healthier product development
+
+The dashboard reports:
+
+Average Sugar = 33.02
+
+and
+
+Average Calories = 194.30
+
+Business meaning
+
+These KPIs can be used to monitor nutritional characteristics across the product portfolio.
+
+The business could identify beverages that are:
+
+* High calorie
+* High sugar
+* High caffeine
+* Lower calorie
+* Lower sugar
+
+This can support the development of:
+
+* Reduced-sugar beverages
+* Lower-calorie alternatives
+* Health-focused product lines
+* Customized beverage recommendations
+
+8. How This Dashboard Can Be Useful for Business
+
+This is where you can demonstrate your business thinking during an interview.
+
+1. Product Development
+
+The company can identify categories with high calorie/sugar values and consider creating healthier alternatives.
+
+2. Marketing
+
+High-caffeine products can be promoted toward customers looking for energy-oriented beverages.
+
+Lower-calorie products can be positioned toward health-conscious customers.
+
+3. Customer Segmentation
+
+Customers can potentially be grouped according to preferences:
+
+4. Menu Optimization
+
+Management can compare beverage categories and identify which types dominate the product portfolio.
+
+5. Nutritional Strategy
+
+The company can monitor average calories, sugar, protein and caffeine when evaluating existing and new products.
+
+6. Decision Making
+
+Instead of relying only on assumptions, managers can use dashboard KPIs and category comparisons to support data-driven decisions.
+
+9. Example Business Questions Answered
+
+Your dashboard can answer:
+
+Which beverage category has the highest average calories?
+
+The calorie comparison chart identifies the highest-calorie categories.
+
+Which beverages contain the most caffeine?
+
+The Top 5 Highest Caffeine visual identifies the leading products.
+
+What is the average sugar content?
+
+The dashboard reports 33.02.
+
+What is the average calorie level?
+
+The dashboard reports 194.30.
+
+What is the average caffeine level?
+
+The dashboard reports 81.
+
+How is the beverage portfolio distributed?
+
+The category distribution chart provides the breakdown.
+
+10. DAX Measures
+
+For your GitHub project, you can also show examples of the measures used.
+11. Dashboard Design
+
+The dashboard uses a Starbucks-inspired green and neutral color palette.
+
+Design principles used:
+
+* Clean white/cream background
+* Dark green primary color
+* Green-based chart palette
+* KPI cards at the top
+* Consistent spacing
+* Category-based visual grouping
+* Minimal visual clutter
+* Interactive filters
+* Business-focused KPIs
+
+The purpose was to create a dashboard that is not only visually attractive but also easy for a business stakeholder to understand.
+
+
+
+Raw Dataset
+     ↓
+Data Cleaning
+     ↓
+Data Transformation
+     ↓
+Data Modeling
+     ↓
+DAX Measures
+     ↓
+KPI Development
+     ↓
+Data Visualization
+     ↓
+Interactive Dashboard
+     ↓
+Business Insights
+     ↓
+Business Recommendations
+
+
+13. Skills Demonstrated
+
+This project demonstrates the following skills:
+
+Technical Skills
+
+* Power BI
+* Power Query
+* DAX
+* Data Cleaning
+* Data Transformation
+* Data Modeling
+* Data Visualization
+* Dashboard Development
+* KPI Development
+* Interactive Reporting
+
+Analytical Skills
+
+* Exploratory Data Analysis
+* Category Analysis
+* Comparative Analysis
+* KPI Analysis
+* Pattern Identification
+* Business Insight Generation
+* Data-driven Decision Making
+
+Business Skills
+
+* Product Analysis
+* Customer Segmentation
+* Marketing Insights
+* Product Portfolio Analysis
+* Business Reporting
+* Decision Support
